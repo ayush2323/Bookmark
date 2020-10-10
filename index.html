@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMark</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="blur">
+        <h1>Welcome To BookMark Project</h1>
+        <button class="head">Tap to add bookmark</button>
+        <div class="enterBookmark">
+            <button class ="close">&times;</button>
+            <div class="title">
+                <h2 class="h2">Enter Title</h1>
+                <input type="text" class="textarea" id="text-title" value="" placeholder="enter your title"></textarea>
+            </div>
+            <div class="link">
+                <h2 class="h2">Enter Link</h1>
+                <input type="text" class="textarea" id="text-link" value="" placeholder="enter your link"></textarea>
+            </div>
+            <button id="submit">Add Bookmark</button>
+        </div>
+        <div id="overlay"></div>
+        <h1> Saved BookMark</h1>
+        <div class="content" id="bookmark"></div>
+
+        <div id="alert" >
+            <div id="box">
+                <div class="heading">
+                    <h2 id="error">ERROR!</h2>
+                </div>
+                <div class="con">
+                    <h3 id="insert"></h3>
+                    <button id="comfirmbtn">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
